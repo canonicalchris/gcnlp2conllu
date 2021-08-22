@@ -1,0 +1,20 @@
+1	It	It	PRON	PRON	Case=Nominative|Gender=Neuter|Number=Singular|Person=Third	2	nsubj	_	_
+2	is	be	VERB	VERB	Mood=Indicative|Number=Singular|Person=Third|Tense=Present	0	root	_	_
+3	annoying	annoying	ADJ	ADJ		2	acomp	_	_
+4	to	to	ADP	ADP		3	prep	_	_
+5	always	always	ADV	ADV		4	pobj	_	_
+6	,	,	PUNCT	PUNCT		2	p	_	_
+7	continuously	continuously	ADV	ADV		2	advmod	_	_
+8	and	and	CONJ	CONJ		7	cc	_	_
+9	indeed	indeed	ADV	ADV		7	conj	_	_
+10	,	,	PUNCT	PUNCT		2	p	_	_
+11	without	without	ADP	ADP		13	prep	_	_
+12	interruption	interruption	NOUN	NOUN	Number=Singular	11	pobj	_	_
+13	have	have	VERB	VERB	Mood=Indicative|Tense=Present	2	parataxis	_	_
+14	to	to	PRT	PRT		15	aux	_	_
+15	worry	worry	VERB	VERB		13	xcomp	_	_
+16	about	about	ADP	ADP		15	prep	_	_
+17	the	the	DET	DET		19	det	_	_
+18	split	split	NOUN	NOUN	Number=Singular	19	nn	_	_
+19	infinitive	infinitive	NOUN	NOUN	Number=Singular	16	pobj	_	_
+20	.	.	PUNCT	PUNCT		2	p	_	_

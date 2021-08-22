@@ -31,9 +31,8 @@ def convert_to_html(parse, cf):
     print('', file=cf)
 
 
-def convert(parse, cf, left='', right=' ', start_of_line='', end_of_line='\n'):
+def convert(parse, cf, left='', right='\t', start_of_line='', end_of_line='\n'):
     # we have no xpos tagging information in the Google NLP API
-    xpos_tag = '_'
     for offset, token in enumerate(parse['tokens']):
         id = offset + 1
         text = token['text']['content']
@@ -45,7 +44,8 @@ def convert(parse, cf, left='', right=' ', start_of_line='', end_of_line='\n'):
         dep_label = token['dependencyEdge']['label'].lower()
         features = extract_part_of_speech_features(pos_details)
         print(start_of_line, end='', file=cf)
-        for value in [id, text, lemma, pos_tag, xpos_tag, features, head, dep_label]:
+        xpos_tag = pos_tag
+        for value in [id, text, lemma, pos_tag, xpos_tag, features, head, dep_label, '_', '_']:
             print(left, end='', file=cf)
             print(value, end=right, file=cf)
         print('', end=end_of_line, file=cf)
