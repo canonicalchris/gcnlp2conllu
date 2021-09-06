@@ -4,7 +4,7 @@
     {
       "text": {
         "beginOffset": 0,
-        "content": "We desire to boldly go where none dare to venture."
+        "content": "We desire to go boldly where none dare to venture."
       }
     }
   ],
@@ -61,7 +61,7 @@
     },
     {
       "dependencyEdge": {
-        "headTokenIndex": 4,
+        "headTokenIndex": 3,
         "label": "AUX"
       },
       "lemma": "to",
@@ -86,31 +86,6 @@
     },
     {
       "dependencyEdge": {
-        "headTokenIndex": 4,
-        "label": "ADVMOD"
-      },
-      "lemma": "boldly",
-      "partOfSpeech": {
-        "aspect": "ASPECT_UNKNOWN",
-        "case": "CASE_UNKNOWN",
-        "form": "FORM_UNKNOWN",
-        "gender": "GENDER_UNKNOWN",
-        "mood": "MOOD_UNKNOWN",
-        "number": "NUMBER_UNKNOWN",
-        "person": "PERSON_UNKNOWN",
-        "proper": "PROPER_UNKNOWN",
-        "reciprocity": "RECIPROCITY_UNKNOWN",
-        "tag": "ADV",
-        "tense": "TENSE_UNKNOWN",
-        "voice": "VOICE_UNKNOWN"
-      },
-      "text": {
-        "beginOffset": 13,
-        "content": "boldly"
-      }
-    },
-    {
-      "dependencyEdge": {
         "headTokenIndex": 1,
         "label": "XCOMP"
       },
@@ -130,8 +105,33 @@
         "voice": "VOICE_UNKNOWN"
       },
       "text": {
-        "beginOffset": 20,
+        "beginOffset": 13,
         "content": "go"
+      }
+    },
+    {
+      "dependencyEdge": {
+        "headTokenIndex": 3,
+        "label": "ADVMOD"
+      },
+      "lemma": "boldly",
+      "partOfSpeech": {
+        "aspect": "ASPECT_UNKNOWN",
+        "case": "CASE_UNKNOWN",
+        "form": "FORM_UNKNOWN",
+        "gender": "GENDER_UNKNOWN",
+        "mood": "MOOD_UNKNOWN",
+        "number": "NUMBER_UNKNOWN",
+        "person": "PERSON_UNKNOWN",
+        "proper": "PROPER_UNKNOWN",
+        "reciprocity": "RECIPROCITY_UNKNOWN",
+        "tag": "ADV",
+        "tense": "TENSE_UNKNOWN",
+        "voice": "VOICE_UNKNOWN"
+      },
+      "text": {
+        "beginOffset": 16,
+        "content": "boldly"
       }
     },
     {
@@ -186,7 +186,7 @@
     },
     {
       "dependencyEdge": {
-        "headTokenIndex": 4,
+        "headTokenIndex": 3,
         "label": "ADVCL"
       },
       "lemma": "dare",

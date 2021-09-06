@@ -1,13 +1,13 @@
 # sent_id = 1
-# text_en = We desire to boldly go where none dare to venture.
+# text_en = We desire to go boldly where none dare to venture.
 1	We	We	PRON	PRON	Case=Nominative|Number=Plural|Person=First	2	nsubj	_	_	
 2	desire	desire	VERB	VERB	Mood=Indicative|Number=Singular|Tense=Present	0	root	_	_	
-3	to	to	PRT	PRT		5	aux	_	_	
-4	boldly	boldly	ADV	ADV		5	advmod	_	_	
-5	go	go	VERB	VERB		2	xcomp	_	_	
+3	to	to	PRT	PRT		4	aux	_	_	
+4	go	go	VERB	VERB		2	xcomp	_	_	
+5	boldly	boldly	ADV	ADV		4	advmod	_	_	
 6	where	where	ADV	ADV		8	advmod	_	_	
 7	none	none	NOUN	NOUN	Number=Singular	8	nsubj	_	_	
-8	dare	dare	VERB	VERB	Mood=Indicative|Tense=Present	5	advcl	_	_	
+8	dare	dare	VERB	VERB	Mood=Indicative|Tense=Present	4	advcl	_	_	
 9	to	to	PRT	PRT		10	aux	_	_	
 10	venture	venture	VERB	VERB		8	xcomp	_	SpaceAfter=No	
 11	.	.	PUNCT	PUNCT		2	p	_	_	
