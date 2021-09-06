@@ -1,0 +1,332 @@
+# sent_id = 1
+# text_en = Call me Ishmael.
+1	Call	Call	VERB	VERB	Mood=Imperative	0	root	_	_	
+2	me	me	PRON	PRON	Case=Accusative|Number=Singular|Person=First	1	iobj	_	_	
+3	Ishmael	Ishmael	NOUN	NOUN	Number=Singular|Proper=Proper	1	dobj	_	SpaceAfter=No	
+4	.	.	PUNCT	PUNCT		1	p	_	_	
+# sent_id = 2
+# text_en = Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.
+1	Some	Some	DET	DET		2	det	_	_	
+2	years	year	NOUN	NOUN	Number=Plural	3	npadvmod	_	_	
+3	ago	ago	ADV	ADV		6	advmod	_	SpaceAfter=No	
+4	—	—	PUNCT	PUNCT		6	p	_	SpaceAfter=No	
+5	never	never	ADV	ADV		6	neg	_	_	
+6	mind	mind	VERB	VERB	Number=Singular	0	root	_	_	
+7	how	how	ADV	ADV		8	advmod	_	_	
+8	long	long	ADV	ADV		9	advmod	_	_	
+9	precisely	precisely	ADV	ADV		6	advmod	_	SpaceAfter=No	
+10	—	—	PUNCT	PUNCT		6	p	_	SpaceAfter=No	
+11	having	have	VERB	VERB		6	parataxis	_	_	
+12	little	little	ADJ	ADJ		15	amod	_	_	
+13	or	or	CONJ	CONJ		12	cc	_	_	
+14	no	no	DET	DET		12	conj	_	_	
+15	money	money	NOUN	NOUN	Number=Singular	11	dobj	_	_	
+16	in	in	ADP	ADP		11	prep	_	_	
+17	my	my	PRON	PRON	Case=Genitive|Number=Singular|Person=First	18	poss	_	_	
+18	purse	purse	NOUN	NOUN	Number=Singular	16	pobj	_	SpaceAfter=No	
+19	,	,	PUNCT	PUNCT		11	p	_	_	
+20	and	and	CONJ	CONJ		11	cc	_	_	
+21	nothing	nothing	NOUN	NOUN	Number=Singular	11	conj	_	_	
+22	particular	particular	ADJ	ADJ		21	amod	_	_	
+23	to	to	PRT	PRT		24	aux	_	_	
+24	interest	interest	VERB	VERB		21	vmod	_	_	
+25	me	me	PRON	PRON	Case=Accusative|Number=Singular|Person=First	24	dobj	_	_	
+26	on	on	ADP	ADP		24	prep	_	_	
+27	shore	shore	NOUN	NOUN	Number=Singular	26	pobj	_	SpaceAfter=No	
+28	,	,	PUNCT	PUNCT		6	p	_	_	
+29	I	I	PRON	PRON	Case=Nominative|Number=Singular|Person=First	30	nsubj	_	_	
+30	thought	think	VERB	VERB	Mood=Indicative|Tense=Past	6	parataxis	_	_	
+31	I	I	PRON	PRON	Case=Nominative|Number=Singular|Person=First	33	nsubj	_	_	
+32	would	would	VERB	VERB		33	aux	_	_	
+33	sail	sail	VERB	VERB		30	ccomp	_	_	
+34	about	about	ADP	ADP		33	prep	_	_	
+35	a	a	DET	DET		36	det	_	_	
+36	little	little	ADJ	ADJ		34	pobj	_	_	
+37	and	and	CONJ	CONJ		33	cc	_	_	
+38	see	see	VERB	VERB	Mood=Imperative	33	conj	_	_	
+39	the	the	DET	DET		41	det	_	_	
+40	watery	watery	ADJ	ADJ		41	amod	_	_	
+41	part	part	NOUN	NOUN	Number=Singular	38	dobj	_	_	
+42	of	of	ADP	ADP		41	prep	_	_	
+43	the	the	DET	DET		44	det	_	_	
+44	world	world	NOUN	NOUN	Number=Singular	42	pobj	_	SpaceAfter=No	
+45	.	.	PUNCT	PUNCT		6	p	_	_	
+# sent_id = 3
+# text_en = It is a way I have of driving off the spleen and regulating the circulation.
+1	It	It	PRON	PRON	Case=Nominative|Gender=Neuter|Number=Singular|Person=Third	2	nsubj	_	_	
+2	is	be	VERB	VERB	Mood=Indicative|Number=Singular|Person=Third|Tense=Present	0	root	_	_	
+3	a	a	DET	DET		4	det	_	_	
+4	way	way	NOUN	NOUN	Number=Singular	2	attr	_	_	
+5	I	I	PRON	PRON	Case=Nominative|Number=Singular|Person=First	6	nsubj	_	_	
+6	have	have	VERB	VERB	Mood=Indicative|Tense=Present	4	rcmod	_	_	
+7	of	of	ADP	ADP		6	prep	_	_	
+8	driving	drive	VERB	VERB		7	pcomp	_	_	
+9	off	off	PRT	PRT		8	prt	_	_	
+10	the	the	DET	DET		11	det	_	_	
+11	spleen	spleen	NOUN	NOUN	Number=Singular	8	dobj	_	_	
+12	and	and	CONJ	CONJ		8	cc	_	_	
+13	regulating	regulate	VERB	VERB		8	conj	_	_	
+14	the	the	DET	DET		15	det	_	_	
+15	circulation	circulation	NOUN	NOUN	Number=Singular	13	dobj	_	SpaceAfter=No	
+16	.	.	PUNCT	PUNCT		2	p	_	_	
+# sent_id = 4
+# text_en = Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people’s hats off—then, I account it high time to get to sea as soon as I can.
+1	Whenever	Whenever	ADV	ADV		3	advmod	_	_	
+2	I	I	PRON	PRON	Case=Nominative|Number=Singular|Person=First	3	nsubj	_	_	
+3	find	find	VERB	VERB	Mood=Indicative|Tense=Present	0	root	_	_	
+4	myself	myself	PRON	PRON	Case=Accusative|Number=Singular|Person=First	5	nsubj	_	_	
+5	growing	grow	VERB	VERB		3	xcomp	_	_	
+6	grim	grim	ADJ	ADJ		5	acomp	_	_	
+7	about	about	ADP	ADP		6	prep	_	_	
+8	the	the	DET	DET		9	det	_	_	
+9	mouth	mouth	NOUN	NOUN	Number=Singular	7	pobj	_	SpaceAfter=No	
+10	;	;	PUNCT	PUNCT		3	p	_	_	
+11	whenever	whenever	ADV	ADV		13	advmod	_	_	
+12	it	it	PRON	PRON	Case=Nominative|Gender=Neuter|Number=Singular|Person=Third	13	nsubj	_	_	
+13	is	be	VERB	VERB	Mood=Indicative|Number=Singular|Person=Third|Tense=Present	3	parataxis	_	_	
+14	a	a	DET	DET		18	det	_	_	
+15	damp	damp	ADJ	ADJ		18	amod	_	SpaceAfter=No	
+16	,	,	PUNCT	PUNCT		18	p	_	_	
+17	drizzly	drizzly	ADJ	ADJ		18	amod	_	_	
+18	November	November	NOUN	NOUN	Number=Singular|Proper=Proper	13	attr	_	_	
+19	in	in	ADP	ADP		18	prep	_	_	
+20	my	my	PRON	PRON	Case=Genitive|Number=Singular|Person=First	21	poss	_	_	
+21	soul	soul	NOUN	NOUN	Number=Singular	19	pobj	_	SpaceAfter=No	
+22	;	;	PUNCT	PUNCT		3	p	_	_	
+23	whenever	whenever	ADV	ADV		25	advmod	_	_	
+24	I	I	PRON	PRON	Case=Nominative|Number=Singular|Person=First	25	nsubj	_	_	
+25	find	find	VERB	VERB	Mood=Indicative|Tense=Present	85	advcl	_	_	
+26	myself	myself	PRON	PRON	Case=Accusative|Number=Singular|Person=First	28	nsubj	_	_	
+27	involuntarily	involuntarily	ADV	ADV		28	advmod	_	_	
+28	pausing	pause	VERB	VERB		25	xcomp	_	_	
+29	before	before	ADP	ADP		28	prep	_	_	
+30	coffin	coffin	NOUN	NOUN	Number=Singular	31	nn	_	_	
+31	warehouses	warehouse	NOUN	NOUN	Number=Plural	29	pobj	_	SpaceAfter=No	
+32	,	,	PUNCT	PUNCT		25	p	_	_	
+33	and	and	CONJ	CONJ		25	cc	_	_	
+34	bringing	bring	VERB	VERB		25	conj	_	_	
+35	up	up	PRT	PRT		34	prt	_	_	
+36	the	the	DET	DET		37	det	_	_	
+37	rear	rear	NOUN	NOUN	Number=Singular	34	dobj	_	_	
+38	of	of	ADP	ADP		37	prep	_	_	
+39	every	every	DET	DET		40	det	_	_	
+40	funeral	funeral	NOUN	NOUN	Number=Singular	38	pobj	_	_	
+41	I	I	PRON	PRON	Case=Nominative|Number=Singular|Person=First	42	nsubj	_	_	
+42	meet	meet	VERB	VERB	Mood=Indicative|Tense=Present	40	rcmod	_	SpaceAfter=No	
+43	;	;	PUNCT	PUNCT		25	p	_	_	
+44	and	and	CONJ	CONJ		25	cc	_	_	
+45	especially	especially	ADV	ADV		49	advmod	_	_	
+46	whenever	whenever	ADV	ADV		49	advmod	_	_	
+47	my	my	PRON	PRON	Case=Genitive|Number=Singular|Person=First	48	poss	_	_	
+48	hypos	hypo	NOUN	NOUN	Number=Singular	49	nsubj	_	_	
+49	get	get	VERB	VERB	Mood=Indicative|Tense=Present	25	conj	_	_	
+50	such	such	DET	DET		53	predet	_	_	
+51	an	an	DET	DET		53	det	_	_	
+52	upper	up	ADJ	ADJ		53	amod	_	_	
+53	hand	hand	NOUN	NOUN	Number=Singular	49	dobj	_	_	
+54	of	of	ADP	ADP		53	prep	_	_	
+55	me	me	PRON	PRON	Case=Accusative|Number=Singular|Person=First	54	pobj	_	SpaceAfter=No	
+56	,	,	PUNCT	PUNCT		25	p	_	_	
+57	that	that	ADP	ADP		59	mark	_	_	
+58	it	it	PRON	PRON	Case=Nominative|Gender=Neuter|Number=Singular|Person=Third	59	nsubj	_	_	
+59	requires	require	VERB	VERB	Mood=Indicative|Number=Singular|Person=Third|Tense=Present	25	ccomp	_	_	
+60	a	a	DET	DET		63	det	_	_	
+61	strong	strong	ADJ	ADJ		63	amod	_	_	
+62	moral	moral	ADJ	ADJ		63	amod	_	_	
+63	principle	principle	NOUN	NOUN	Number=Singular	59	dobj	_	_	
+64	to	to	PRT	PRT		65	aux	_	_	
+65	prevent	prevent	VERB	VERB		59	xcomp	_	_	
+66	me	me	PRON	PRON	Case=Accusative|Number=Singular|Person=First	65	dobj	_	_	
+67	from	from	ADP	ADP		65	prep	_	_	
+68	deliberately	deliberately	ADV	ADV		69	advmod	_	_	
+69	stepping	step	VERB	VERB		67	pcomp	_	_	
+70	into	into	ADP	ADP		69	prep	_	_	
+71	the	the	DET	DET		72	det	_	_	
+72	street	street	NOUN	NOUN	Number=Singular	70	pobj	_	SpaceAfter=No	
+73	,	,	PUNCT	PUNCT		69	p	_	_	
+74	and	and	CONJ	CONJ		69	cc	_	_	
+75	methodically	methodically	ADV	ADV		69	advmod	_	_	
+76	knocking	knock	VERB	VERB		69	dep	_	_	
+77	people	person	NOUN	NOUN	Number=Plural	79	poss	_	SpaceAfter=No	
+78	’s	’s	PRT	PRT		77	ps	_	_	
+79	hats	hat	NOUN	NOUN	Number=Singular	76	dobj	_	_	
+80	off	off	PRT	PRT		76	prt	_	SpaceAfter=No	
+81	—	—	PUNCT	PUNCT		25	p	_	SpaceAfter=No	
+82	then	then	ADV	ADV		85	advmod	_	SpaceAfter=No	
+83	,	,	PUNCT	PUNCT		85	p	_	_	
+84	I	I	PRON	PRON	Case=Nominative|Number=Singular|Person=First	85	nsubj	_	_	
+85	account	account	VERB	VERB	Mood=Indicative|Tense=Present	3	parataxis	_	_	
+86	it	it	PRON	PRON	Case=Nominative|Gender=Neuter|Number=Singular|Person=Third	85	dobj	_	_	
+87	high	high	ADJ	ADJ		88	amod	_	_	
+88	time	time	NOUN	NOUN	Number=Singular	85	tmod	_	_	
+89	to	to	PRT	PRT		90	aux	_	_	
+90	get	get	VERB	VERB		85	xcomp	_	_	
+91	to	to	ADP	ADP		90	prep	_	_	
+92	sea	sea	NOUN	NOUN	Number=Singular	91	pobj	_	_	
+93	as	as	ADV	ADV		94	advmod	_	_	
+94	soon	soon	ADV	ADV		90	advmod	_	_	
+95	as	as	ADP	ADP		97	mark	_	_	
+96	I	I	PRON	PRON	Case=Nominative|Number=Singular|Person=First	97	nsubj	_	_	
+97	can	can	VERB	VERB		94	advcl	_	SpaceAfter=No	
+98	.	.	PUNCT	PUNCT		3	p	_	_	
+# sent_id = 5
+# text_en = This is my substitute for pistol and ball.
+1	This	This	DET	DET	Number=Singular	2	nsubj	_	_	
+2	is	be	VERB	VERB	Mood=Indicative|Number=Singular|Person=Third|Tense=Present	0	root	_	_	
+3	my	my	PRON	PRON	Case=Genitive|Number=Singular|Person=First	4	poss	_	_	
+4	substitute	substitute	NOUN	NOUN	Number=Singular	2	attr	_	_	
+5	for	for	ADP	ADP		4	prep	_	_	
+6	pistol	pistol	NOUN	NOUN	Number=Singular	5	pobj	_	_	
+7	and	and	CONJ	CONJ		6	cc	_	_	
+8	ball	ball	NOUN	NOUN	Number=Singular	6	conj	_	SpaceAfter=No	
+9	.	.	PUNCT	PUNCT		2	p	_	_	
+# sent_id = 6
+# text_en = With a philosophical flourish Cato throws himself upon his sword; I quietly take to the ship.
+1	With	With	ADP	ADP		6	prep	_	_	
+2	a	a	DET	DET		4	det	_	_	
+3	philosophical	philosophical	ADJ	ADJ		4	amod	_	_	
+4	flourish	flourish	NOUN	NOUN	Number=Singular	1	pobj	_	_	
+5	Cato	Cato	NOUN	NOUN	Number=Singular|Proper=Proper	6	nsubj	_	_	
+6	throws	throw	VERB	VERB	Mood=Indicative|Number=Singular|Person=Third|Tense=Present	0	root	_	_	
+7	himself	himself	PRON	PRON	Case=Accusative|Gender=Masculine|Number=Singular|Person=Third	6	dobj	_	_	
+8	upon	upon	ADP	ADP		6	prep	_	_	
+9	his	his	PRON	PRON	Case=Genitive|Gender=Masculine|Number=Singular|Person=Third	10	poss	_	_	
+10	sword	sword	NOUN	NOUN	Number=Singular	8	pobj	_	SpaceAfter=No	
+11	;	;	PUNCT	PUNCT		6	p	_	_	
+12	I	I	PRON	PRON	Case=Nominative|Number=Singular|Person=First	14	nsubj	_	_	
+13	quietly	quietly	ADV	ADV		14	advmod	_	_	
+14	take	take	VERB	VERB	Mood=Indicative|Tense=Present	6	parataxis	_	_	
+15	to	to	ADP	ADP		14	prep	_	_	
+16	the	the	DET	DET		17	det	_	_	
+17	ship	ship	NOUN	NOUN	Number=Singular	15	pobj	_	SpaceAfter=No	
+18	.	.	PUNCT	PUNCT		6	p	_	_	
+# sent_id = 7
+# text_en = There is nothing surprising in this.
+1	There	There	DET	DET		2	expl	_	_	
+2	is	be	VERB	VERB	Mood=Indicative|Number=Singular|Person=Third|Tense=Present	0	root	_	_	
+3	nothing	nothing	NOUN	NOUN	Number=Singular	2	nsubj	_	_	
+4	surprising	surprising	ADJ	ADJ		3	amod	_	_	
+5	in	in	ADP	ADP		3	prep	_	_	
+6	this	this	DET	DET	Number=Singular	5	pobj	_	SpaceAfter=No	
+7	.	.	PUNCT	PUNCT		2	p	_	_	
+# sent_id = 8
+# text_en = If they but knew it, almost all men in their degree, some time or other, cherish very nearly the same feelings towards the ocean with me.
+1	If	If	ADP	ADP		4	mark	_	_	
+2	they	they	PRON	PRON	Case=Nominative|Number=Plural|Person=Third	4	nsubj	_	_	
+3	but	but	CONJ	CONJ		4	cc	_	_	
+4	knew	know	VERB	VERB	Mood=Indicative|Tense=Past	19	advcl	_	_	
+5	it	it	PRON	PRON	Case=Accusative|Gender=Neuter|Number=Singular|Person=Third	4	dobj	_	SpaceAfter=No	
+6	,	,	PUNCT	PUNCT		19	p	_	_	
+7	almost	almost	ADV	ADV		8	advmod	_	_	
+8	all	all	DET	DET		9	num	_	_	
+9	men	man	NOUN	NOUN	Number=Plural	19	nsubj	_	_	
+10	in	in	ADP	ADP		9	prep	_	_	
+11	their	their	PRON	PRON	Case=Genitive|Number=Plural|Person=Third	12	poss	_	_	
+12	degree	degree	NOUN	NOUN	Number=Singular	10	pobj	_	SpaceAfter=No	
+13	,	,	PUNCT	PUNCT		9	p	_	_	
+14	some	some	DET	DET		15	det	_	_	
+15	time	time	NOUN	NOUN	Number=Singular	9	appos	_	_	
+16	or	or	CONJ	CONJ		15	cc	_	_	
+17	other	other	ADJ	ADJ		15	conj	_	SpaceAfter=No	
+18	,	,	PUNCT	PUNCT		9	p	_	_	
+19	cherish	cherish	VERB	VERB		0	root	_	_	
+20	very	very	ADV	ADV		24	advmod	_	_	
+21	nearly	nearly	ADV	ADV		24	advmod	_	_	
+22	the	the	DET	DET		24	det	_	_	
+23	same	same	ADJ	ADJ		24	amod	_	_	
+24	feelings	feeling	NOUN	NOUN	Number=Plural	19	dobj	_	_	
+25	towards	towards	ADP	ADP		24	prep	_	_	
+26	the	the	DET	DET		27	det	_	_	
+27	ocean	ocean	NOUN	NOUN	Number=Singular	25	pobj	_	_	
+28	with	with	ADP	ADP		19	prep	_	_	
+29	me	me	PRON	PRON	Case=Accusative|Number=Singular|Person=First	28	pobj	_	SpaceAfter=No	
+30	.	.	PUNCT	PUNCT		19	p	_	_	
+# sent_id = 9
+# text_en = There now is your insular city of the Manhattoes, belted round by wharves as Indian isles by coral reefs—commerce surrounds it with her surf.
+1	There	There	DET	DET		3	expl	_	_	
+2	now	now	ADV	ADV		3	advmod	_	_	
+3	is	be	VERB	VERB	Mood=Indicative|Number=Singular|Person=Third|Tense=Present	0	root	_	_	
+4	your	your	PRON	PRON	Case=Genitive|Number=Singular|Person=Second	6	poss	_	_	
+5	insular	insular	ADJ	ADJ		6	amod	_	_	
+6	city	city	NOUN	NOUN	Number=Singular	3	nsubj	_	_	
+7	of	of	ADP	ADP		6	prep	_	_	
+8	the	the	DET	DET		9	det	_	_	
+9	Manhattoes	Manhattoes	NOUN	NOUN	Number=Singular|Proper=Proper	7	pobj	_	SpaceAfter=No	
+10	,	,	PUNCT	PUNCT		6	p	_	_	
+11	belted	belt	VERB	VERB	Mood=Indicative|Tense=Past	12	amod	_	_	
+12	round	round	NOUN	NOUN	Number=Singular	6	appos	_	_	
+13	by	by	ADP	ADP		12	prep	_	_	
+14	wharves	wharf	NOUN	NOUN	Number=Singular	13	pobj	_	_	
+15	as	as	ADP	ADP		12	prep	_	_	
+16	Indian	Indian	ADJ	ADJ		17	amod	_	_	
+17	isles	isle	NOUN	NOUN	Number=Singular	15	pobj	_	_	
+18	by	by	ADP	ADP		12	prep	_	_	
+19	coral	coral	NOUN	NOUN	Number=Singular	20	nn	_	_	
+20	reefs	reef	NOUN	NOUN	Number=Singular	18	pobj	_	SpaceAfter=No	
+21	—	—	PUNCT	PUNCT		3	p	_	SpaceAfter=No	
+22	commerce	commerce	NOUN	NOUN	Number=Singular	23	nsubj	_	_	
+23	surrounds	surround	VERB	VERB	Mood=Indicative|Number=Plural|Person=Third|Tense=Present	3	parataxis	_	_	
+24	it	it	PRON	PRON	Case=Accusative|Gender=Neuter|Number=Singular|Person=Third	23	dobj	_	_	
+25	with	with	ADP	ADP		23	prep	_	_	
+26	her	her	PRON	PRON	Case=Genitive|Gender=Feminine|Number=Singular|Person=Third	27	poss	_	_	
+27	surf	surf	NOUN	NOUN	Number=Singular	25	pobj	_	SpaceAfter=No	
+28	.	.	PUNCT	PUNCT		3	p	_	_	
+# sent_id = 10
+# text_en = Right and left, the streets take you waterward.
+1	Right	Right	ADJ	ADJ		7	dep	_	_	
+2	and	and	CONJ	CONJ		1	cc	_	_	
+3	left	leave	VERB	VERB	Mood=Indicative|Tense=Past	1	conj	_	SpaceAfter=No	
+4	,	,	PUNCT	PUNCT		7	p	_	_	
+5	the	the	DET	DET		6	det	_	_	
+6	streets	street	NOUN	NOUN	Number=Plural	7	nsubj	_	_	
+7	take	take	VERB	VERB	Mood=Indicative|Tense=Present	0	root	_	_	
+8	you	you	PRON	PRON	Case=Accusative|Person=Second	7	dobj	_	_	
+9	waterward	waterward	ADV	ADV		7	advmod	_	SpaceAfter=No	
+10	.	.	PUNCT	PUNCT		7	p	_	_	
+# sent_id = 11
+# text_en = Its extreme downtown is the battery, where that noble mole is washed by waves, and cooled by breezes, which a few hours previous were out of sight of land.
+1	Its	Its	PRON	PRON	Case=Genitive|Gender=Neuter|Number=Singular|Person=Third	3	poss	_	_	
+2	extreme	extreme	ADJ	ADJ		3	amod	_	_	
+3	downtown	downtown	NOUN	NOUN	Number=Singular	4	nsubj	_	_	
+4	is	be	VERB	VERB	Mood=Indicative|Number=Singular|Person=Third|Tense=Present	0	root	_	_	
+5	the	the	DET	DET		6	det	_	_	
+6	battery	battery	NOUN	NOUN	Number=Singular	4	attr	_	SpaceAfter=No	
+7	,	,	PUNCT	PUNCT		6	p	_	_	
+8	where	where	ADV	ADV		13	advmod	_	_	
+9	that	that	DET	DET		11	det	_	_	
+10	noble	noble	ADJ	ADJ		11	amod	_	_	
+11	mole	mole	NOUN	NOUN	Number=Singular	13	nsubjpass	_	_	
+12	is	be	VERB	VERB	Mood=Indicative|Number=Singular|Person=Third|Tense=Present	13	auxpass	_	_	
+13	washed	wash	VERB	VERB	Tense=Past|Voice=Passive	6	rcmod	_	_	
+14	by	by	ADP	ADP		13	prep	_	_	
+15	waves	wave	NOUN	NOUN	Number=Plural	14	pobj	_	SpaceAfter=No	
+16	,	,	PUNCT	PUNCT		13	p	_	_	
+17	and	and	CONJ	CONJ		13	cc	_	_	
+18	cooled	cool	VERB	VERB	Tense=Past	13	conj	_	_	
+19	by	by	ADP	ADP		18	prep	_	_	
+20	breezes	breeze	NOUN	NOUN	Number=Singular	19	pobj	_	SpaceAfter=No	
+21	,	,	PUNCT	PUNCT		6	p	_	_	
+22	which	which	DET	DET		27	dobj	_	_	
+23	a	a	DET	DET		25	det	_	_	
+24	few	few	ADJ	ADJ		25	amod	_	_	
+25	hours	hour	NOUN	NOUN	Number=Plural	27	nsubj	_	_	
+26	previous	previous	ADJ	ADJ		25	amod	_	_	
+27	were	be	VERB	VERB	Mood=Indicative|Tense=Past	6	rcmod	_	_	
+28	out	out	ADP	ADP		27	prep	_	_	
+29	of	of	ADP	ADP		28	pcomp	_	_	
+30	sight	sight	NOUN	NOUN	Number=Singular	29	pobj	_	_	
+31	of	of	ADP	ADP		30	prep	_	_	
+32	land	land	NOUN	NOUN	Number=Singular	31	pobj	_	SpaceAfter=No	
+33	.	.	PUNCT	PUNCT		4	p	_	_	
+# sent_id = 12
+# text_en = Look at the crowds of water-gazers there.
+1	Look	Look	VERB	VERB	Mood=Imperative	0	root	_	_	
+2	at	at	ADP	ADP		1	prep	_	_	
+3	the	the	DET	DET		4	det	_	_	
+4	crowds	crowd	NOUN	NOUN	Number=Plural	2	pobj	_	_	
+5	of	of	ADP	ADP		4	prep	_	_	
+6	water	water	NOUN	NOUN	Number=Singular	8	nn	_	SpaceAfter=No	
+7	-	-	PUNCT	PUNCT		8	p	_	SpaceAfter=No	
+8	gazers	gazer	NOUN	NOUN	Number=Singular	5	pobj	_	_	
+9	there	there	ADV	ADV		8	advmod	_	SpaceAfter=No	
+10	.	.	PUNCT	PUNCT		1	p	_	_	
