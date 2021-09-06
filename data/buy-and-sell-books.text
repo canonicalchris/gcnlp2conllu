@@ -1,0 +1,8 @@
+# sent_id = 1
+# text_en = They buy and sell books.
+1	They	They	PRON	PRON	Case=Nominative|Number=Plural|Person=Third	2	nsubj	_	_	
+2	buy	buy	VERB	VERB	Mood=Indicative|Tense=Present	0	root	_	_	
+3	and	and	CONJ	CONJ		2	cc	_	_	
+4	sell	sell	VERB	VERB		2	conj	_	_	
+5	books	book	NOUN	NOUN	Number=Plural	2	dobj	_	SpaceAfter=No	
+6	.	.	PUNCT	PUNCT		2	p	_	_	
